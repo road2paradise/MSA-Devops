@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo_2.svg";
+import logo from "./doge.svg";
 import "./App.css";
 
 function App() {
@@ -7,10 +7,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>MSA 2020 Devops!!!</p>
+        <p>Such automated build and release pipelines, much wow</p>
         <a
           className="App-link"
-          href="https://msa.azurewebsites.net/"
+          href="https://nzmsa.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
