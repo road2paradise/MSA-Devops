@@ -19,5 +19,6 @@ A build status can be seen on the top of the README.md file.
 
 My release pipeline executes upon any changes to the `master` branch.
 
+When artifacts are created from the build-pipeline triggered by changes to the `master` branch, it is then continuously deployed to the web app.
 
 
