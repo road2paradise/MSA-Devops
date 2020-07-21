@@ -11,7 +11,9 @@ A `build status` can be seen on the top of the README.md file that shows the sta
 
 ## Build Pipeline
 
-My build pipeline executes upon any changes to the `develop` and `master` branches. This also ignores any commits to either branches if the changes are only on the README.md file.
+My build pipeline executes upon any changes to the `develop` and `master` branches. 
+
+This also ignores any commits to either branches if the changes are only on the `README.md` file.
 
 1. Installs Node.js 
 2. Runs npm install and npm build 
