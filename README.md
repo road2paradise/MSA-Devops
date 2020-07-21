@@ -4,7 +4,7 @@
 
 [Link](https://kenny-devops-2020-07.azurewebsites.net/ ) to the deployed webapp. 
 
-I have created my pipeline(s) to only execute upon approval by the *resource owner*.
+Any pull requests to the `develop` and `master` branches will need approval from the code owner as a sanity check.
 
 A `build status` can be seen on the top of the README.md file that shows the status of the build pipelines on Azure.
 
