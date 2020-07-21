@@ -6,6 +6,8 @@
 
 I have created my pipeline(s) to only execute upon approval by the `resource owner`.
 
+A `Build Status` can be seen on the top of the README.md file.
+
 
 ## Build Pipeline
 
@@ -15,7 +17,7 @@ My build pipeline executes upon any changes to the `develop` and `master` branch
 2. Runs npm install and npm build 
 3. Saves the build as an artifact as a zip.
 
-A `Build Status` can be seen on the top of the README.md file.
+
 
 
 ## Release Pipeline
