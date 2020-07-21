@@ -9,11 +9,15 @@
 
 My build pipeline executes upon any changes to the `develop` and `master` branches. This also ignores any commits to either branches if the changes are only on the README.md file.
 
+I have created my pipeline to only execute upon approval by an individual (myself).
+
+
 1. Installs Node.js 
 2. Runs npm install and npm build 
 3. Saves the build as an artifact as a zip.
 
-A build status can be seen on the top of the README.md file.
+A `Build Status` can be seen on the top of the README.md file.
+
 
 ## Release Pipeline
 
