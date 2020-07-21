@@ -4,7 +4,7 @@
 
 [Link](https://kenny-devops-2020-07.azurewebsites.net/ ) to the deployed webapp. 
 
-Any pull requests to the `develop` and `master` branches will need approval from the code owner as a sanity check before pipelines being executed.
+Any pull requests to the `develop` and `master` branches will need to be reviewed as a sanity check before pipelines are executed. This is to save unnecessary executes to occur.
 
 A `build status` can be seen on the top of the README.md file that shows the status of the build pipelines on Azure.
 
