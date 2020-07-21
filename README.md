@@ -4,9 +4,9 @@
 
 [Link](https://kenny-devops-2020-07.azurewebsites.net/ ) to the deployed webapp. 
 
-I have created my pipeline(s) to only execute upon approval by the `resource owner`.
+I have created my pipeline(s) to only execute upon approval by the *resource owner*.
 
-A `Build Status` can be seen on the top of the README.md file.
+A `build status` can be seen on the top of the README.md file that shows the status of the build pipelines on Azure.
 
 
 ## Build Pipeline
@@ -16,8 +16,6 @@ My build pipeline executes upon any changes to the `develop` and `master` branch
 1. Installs Node.js 
 2. Runs npm install and npm build 
 3. Saves the build as an artifact as a zip.
-
-
 
 
 ## Release Pipeline
